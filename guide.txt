@@ -1,0 +1,30 @@
+init:function)() {
+    Initailizes mod
+    Declare hooks
+} 
+
+save:function() {
+    Save if needed
+    returns a string
+}
+
+load:function(str) {
+    loads what was saved
+}
+
+customFunc:function() {
+    Custom functions
+}
+
+
+
+"Logic" - called every logic tick
+"Draw" - called every draw tick
+"Reset" - called when player resets; Hard = True, Reincarnate = False
+"Reincarnate" - called after the player ascension
+"Ticker" - called when the news ticker ticks; returns an array of possible next ticker choises
+"CPS" - called when determining cps; f(currentCPS) ret | Modded Cps
+"Cookie per click" - called when determining cookies per click; f(currentCPC) ret | Modded CPC
+"Click" - called when big cookie is clicked
+"Create" - called after the game declares everything else | Make own building ,etc. with this
+"Check" - called every few seconds
