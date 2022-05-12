@@ -18,13 +18,13 @@ customFunc:function() {
 
 
 
-"Logic" - called every logic tick
-"Draw" - called every draw tick
-"Reset" - called when player resets; Hard = True, Reincarnate = False
-"Reincarnate" - called after the player ascension
-"Ticker" - called when the news ticker ticks; returns an array of possible next ticker choises
-"CPS" - called when determining cps; f(currentCPS) ret | Modded Cps
-"Cookie per click" - called when determining cookies per click; f(currentCPC) ret | Modded CPC
-"Click" - called when big cookie is clicked
-"Create" - called after the game declares everything else | Make own building ,etc. with this
-"Check" - called every few seconds
+"logic" - called every logic tick
+"draw" - called every draw tick
+"reset" - called when player resets; Hard = True, Reincarnate = False
+"reincarnate" - called after the player ascension
+"ticker" - called when the news ticker ticks; returns an array of possible next ticker choises
+"cps" - called when determining cps; f(currentCPS) ret | Modded Cps
+"cookie per click" - called when determining cookies per click; f(currentCPC) ret | Modded CPC
+"click" - called when big cookie is clicked
+"create" - called after the game declares everything else | Make own building ,etc. with this
+"check" - called every few seconds
